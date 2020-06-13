@@ -1,0 +1,51 @@
+/*Aqui va el comentario
+*/
+
+html {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: palevioletred;
+}
+
+.title {
+    text-transform: uppercase;
+}
+
+.container {
+    background-image: linear-gradient(120deg, #f6d365 0%, #fda085 100%);
+    height: 100vh;
+    /*alto total*/
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.content {
+    max-width: 960px;
+    max-height: 500px;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.paragraph {
+    line-height: 1.8em;
+    font-weight: 200;
+}
+
+.red {
+    height: 200px;
+    width: 100px;
+    background-color: red;
+}
+
+#boton-pago {
+    background-color: yellow;
+}
+
+td {
+    border: solid 1px;
+}
